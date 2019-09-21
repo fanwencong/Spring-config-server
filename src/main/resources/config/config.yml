@@ -3,13 +3,9 @@ server:
 spring:
   application:
     name: conifg
-  cloud:
-    config:
+#  cloud:
+#    config:
 #      uri: https://github.com/fanwencong/Spring-config-server.git
-      server:
-        git:
-          uri: https://github.com/fanwencong/Spring-config-server.git
-          search-paths: /src/main/resources/comfig/
 eureka:
     client:
       register-with-eureka: false
